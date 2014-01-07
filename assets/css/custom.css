@@ -1,0 +1,48 @@
+img.food_pic {
+    height: 100px;
+    width: 100px;
+}
+
+#content {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foods {
+    margin-top: 30px;
+}
+
+#foods .food {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#foods th {
+    font-size: 24px;
+}
+
+#foods td, table#foods th {
+    padding: 12px;
+}
+
+#foods td.rank div {
+    display: block;
+    text-align: center;
+}
+
+#foods .rank_up img, .rank_down img {
+    padding: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin: 2px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#foods .rank_up img:hover, .rank_down img:hover {
+    background-color: #ccc;
+}
